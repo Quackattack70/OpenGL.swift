@@ -6,7 +6,18 @@ module OpenGL [system] {
    }
    module GLFW [system] {
      header "/usr/include/GLFW/glfw3.h"
-     link "GLFW3"
+     link "glfw3"
      export *
    }
+   link "X11"
+   link "Xcursor"
+   link "GLU"
+   link "GLEW"
+   link "Xi"
+   link "pthread"
+   link "rt"
+   link "Xrandr"
+   link "Xxf86vm"
+   link "Xinerama"
+
 }
