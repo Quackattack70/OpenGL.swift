@@ -1,0 +1,12 @@
+module OpenGL [system] {
+   module GL [system] {
+     header "/usr/include/GL/gl.h"
+     link "GL"
+     export *
+   }
+   module GLFW [system] {
+     header "/usr/include/GLFW/glfw3.h"
+     link "GLFW3"
+     export *
+   }
+}
