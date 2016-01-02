@@ -23,7 +23,7 @@ make sure to compile your project by using the following commands:
 cd <project dir>
 swift build
 ```
-then run it with ```.build/debug/<executable name>```
+then run it with ```.build/debug/<executable name>```. The executable name will (most likely) be your project name lower cased
 
 Here is an example of using the module:
 ```
