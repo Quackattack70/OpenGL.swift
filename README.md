@@ -7,7 +7,7 @@ import PackageDescription
 
 let package = Package(
   dependencies: [
-  .Package(url: "../modules/OpenGL.swift", majorVersion: 1)
+  .Package(url: "https://github.com/Quackattack70/OpenGL.swift.git", majorVersion: 1)
   ]
 )
 ```
