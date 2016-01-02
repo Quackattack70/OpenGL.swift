@@ -19,5 +19,6 @@ module OpenGL [system] {
    link "Xrandr"
    link "Xxf86vm"
    link "Xinerama"
+   link "dl"
 
 }
