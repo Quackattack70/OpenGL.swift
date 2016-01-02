@@ -1,7 +1,7 @@
 # OpenGL.swift
 A swift module for using opengl methods and graphics
 
-this module can be used by adding this code in Package.swift
+this module can be used by creating a Package.swift file in your swift project and adding this code in Package.swift
 ```
 import PackageDescription
 
