@@ -18,6 +18,12 @@ let package = Package(
   ]
 )
 ```
+make sure to compile your project by using the following commands:
+```
+cd <project dir>
+swift build
+```
+then run it with ```.build/debug/<executable name>```
 
 Here is an example of using the module:
 ```
